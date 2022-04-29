@@ -1,0 +1,30 @@
+{
+  "name": "block-cat/background",
+  "description": "Set background to your forum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\Background\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Background",
+      "icon": {
+        "name": "fas fa-photo-video",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}

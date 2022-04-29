@@ -1,0 +1,17 @@
+block-cat-background:
+  admin:
+    settings:
+      back_type_label: "Tipul fundalului"
+      back_type_text: "Selectați tipul fundalului. Implicit, fundalul nu este setat."
+      none_type_option: "Implicit"
+      video_type_option: "Video"
+      image_type_option: "Imagine"
+      color_type_option: "Culoare"
+      video_type_label: "Video"
+      video_type_text: "Înserați o adresă URL a unui video. Acest video va fi plasat pe fundalul forumului."
+      video_type_placeholder: "Adresă URL a unui video"
+      image_type_label: "Imagine"
+      image_type_text: "Înserați o adresă URL a unei imagini. Această imagine va fi plasată pe fundalul forumului."
+      image_type_placeholder: "Adresă URL a unei imagini"
+      color_type_label: "Culoare"
+      color_type_text: "Înserați o culoare hexazecimală. Această culoare va fi plasată pe fundalul forumului."

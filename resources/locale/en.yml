@@ -1,0 +1,17 @@
+block-cat-background:
+  admin:
+    settings:
+      back_type_label: "Background Type"
+      back_type_text: "Select background type. By default, background is not set."
+      none_type_option: "Default"
+      video_type_option: "Video"
+      image_type_option: "Image"
+      color_type_option: "Color"
+      video_type_label: "Video"
+      video_type_text: "Insert a video URL. This video will be place on forum background."
+      video_type_placeholder: "A video URL"
+      image_type_label: "Image"
+      image_type_text: "Insert a image URL. This image will be place on forum background."
+      image_type_placeholder: "A image URL"
+      color_type_label: "Color"
+      color_type_text: "Insert an hex color. This color will be place on forum backgruond."

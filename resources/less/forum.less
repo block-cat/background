@@ -1,0 +1,25 @@
+// Setting the stile for video background
+#videoBackground {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBackground {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBackground {
+        width: auto;
+        height: 100%;
+    }
+}
+// Setting the style for image background
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
